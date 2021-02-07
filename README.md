@@ -1,2 +1,2 @@
 # Alexander J. Woods
-## Software Engineer from Southeast Michigan area
+## Sr. Software Engineer from Southeast Michigan area
