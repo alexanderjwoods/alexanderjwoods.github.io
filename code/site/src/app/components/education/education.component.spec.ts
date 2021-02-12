@@ -22,4 +22,12 @@ describe('EducationComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have title "Education"', () => {
+    expect(component.title).toEqual("Education");
+  });
+
+  it('should have 3 education elements', () => {
+    expect(component.elements.length).toEqual(3);
+  });
 });

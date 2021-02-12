@@ -1,0 +1,16 @@
+<section class="resume-section" id="skills">
+    <div class="resume-section-content">
+        <h2 class="mb-5">{{ title }}</h2>
+        <div class="subheading mb-3">{{ languagesHeader }}</div>
+        <ul class="list-inline dev-icons">
+            <li *ngFor="let element of listLanguages" class="list-inline-item" [innerHTML]="element"></li>
+        </ul>
+        <div class="subheading mb-3">{{ workflowHeader }}</div>
+        <ul class="fa-ul mb-0">
+            <li *ngFor="let element of workflowList">
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                {{ element }}
+            </li>
+        </ul>
+    </div>
+</section>

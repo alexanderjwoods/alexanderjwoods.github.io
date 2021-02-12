@@ -22,4 +22,12 @@ describe('AwardsComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('title should be "Awards & Certifications"', () => {
+    expect(component.title).toEqual('Awards & Certifications');
+  });
+
+  it('should have 5 awards', () => {
+    expect(component.awards.length).toEqual(5);
+  });
 });

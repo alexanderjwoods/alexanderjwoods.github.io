@@ -22,4 +22,16 @@ describe('NavComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have a name "Alexander J. Woods"', () => {
+    expect(component.name).toEqual('Alexander J. Woods');
+  });
+
+  it('should have 5 links', () => {
+    expect(component.links.length).toEqual(5);
+  });
+
+  it('should have 5 nav items', () => {
+    expect(component.itemNames.length).toEqual(5);
+  });
 });

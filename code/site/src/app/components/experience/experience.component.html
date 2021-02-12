@@ -1,0 +1,16 @@
+<section class="resume-section" id="experience">
+    <div class="resume-section-content">
+        <h2 class="mb-5">{{ title }}</h2>
+        <div *ngFor="let element of elements" class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">{{ element.title }}</h3>
+                <div class="subheading mb-3">{{ element.company }}</div>
+                <p>{{ element.description }}</p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">{{ element.startYear }} - {{ element.endYear }}</span></div>
+        </div>
+        <div class=subheading mb-2>
+            More available upon request.
+        </div>
+    </div>
+</section>

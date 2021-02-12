@@ -22,4 +22,21 @@ describe('AboutComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('First name and middle initial should be "Alexander J."', () => {
+    expect(component.firstAndMiddleInitial).toBe('Alexander J.');
+  });
+
+  it('Last name should be "Woods"', () => {
+    expect(component.lastName).toBe('Woods');
+  });
+
+  it('Email address should be "alexanderjwoods06@outlook.com"', () => {
+    expect(component.email).toBe('alexanderjwoods06@outlook.com');
+  });
+
+  it('About is not empty', () => {
+    expect(component.about).not.toBeUndefined();
+    expect(component.about).not.toBeNull();
+  })
 });

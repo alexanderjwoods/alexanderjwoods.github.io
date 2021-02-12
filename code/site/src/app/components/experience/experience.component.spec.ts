@@ -22,4 +22,12 @@ describe('ExperienceComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have title "Experience"', () => {
+    expect(component.title).toEqual('Experience');
+  });
+
+  it('should have 6 work experiences', () => {
+    expect(component.elements.length).toEqual(6);
+  });
 });
