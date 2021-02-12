@@ -31,7 +31,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/scripts.js"
+              "src/js/scripts.js"
             ]
           },
           "configurations": {
@@ -96,7 +96,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/scripts.js"
+              "src/js/scripts.js"
             ]
           }
         },
