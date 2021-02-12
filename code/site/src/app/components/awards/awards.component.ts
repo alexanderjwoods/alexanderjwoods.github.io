@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './awards.component.html',
   styleUrls: ['./awards.component.css']
 })
-export class AwardsComponent implements OnInit {
+export class AwardsComponent {
   public title:string = "Awards & Certifications";
   public awards:string[] = new Array<string>(
     "Certified Scrum Master - 2017 through Current",
@@ -14,9 +14,4 @@ export class AwardsComponent implements OnInit {
     "1<sup>st</sup>Place - NASTAR Nation Snowboard Championships - 2008, 2009, 2010",
     "3<sup>rd</sup>Place - NASTAR Nation Snowboard Championships - 2007"
   );
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

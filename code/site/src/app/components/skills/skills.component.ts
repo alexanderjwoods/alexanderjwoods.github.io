@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css']
 })
-export class SkillsComponent implements OnInit {
+export class SkillsComponent {
   public title:string = "Skills";
   public languagesHeader: string = "Programming Languages & Tools";
   public listLanguages: string[] = new Array<string>(
@@ -35,9 +35,4 @@ export class SkillsComponent implements OnInit {
     'Cross Functional Teams',
     'Agile Development & Scrum'
   );
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.css']
 })
-export class NavComponent implements OnInit {
+export class NavComponent {
   public name:string = 'Alexander J. Woods';
   public links:string[] = new Array<string>(
     'about',
@@ -21,10 +21,5 @@ export class NavComponent implements OnInit {
     'Education',
     'Skills',
     'Awards'
-  )
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  );
 }
