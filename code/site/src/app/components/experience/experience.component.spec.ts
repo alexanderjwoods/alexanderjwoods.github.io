@@ -27,7 +27,7 @@ describe('ExperienceComponent', () => {
     expect(component.title).toEqual('Experience');
   });
 
-  it('should have 6 work experiences', () => {
-    expect(component.elements.length).toEqual(6);
+  it('should have 8 work experiences', () => {
+    expect(component.elements.length).toEqual(8);
   });
 });
